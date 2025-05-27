@@ -14,7 +14,7 @@ public class Player : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 velocity = rb.linearVelocity; // linearVelocity yerine velocity kulland�k, do�ru olan bu
+        Vector2 velocity = rb.linearVelocity; 
         velocity.x = movement;
         rb.linearVelocity = velocity;
     }
